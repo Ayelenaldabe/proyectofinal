@@ -1,2 +1,3 @@
 body {background-color:white;}
-.titulos {text-align: center; color:#F7DC6F ; font-style: italic; }
+.solapas {text-align:left; color:#F7DC6F;font-style: italic}
+#titulo {text-align: center; font-size: italic; color:black }
