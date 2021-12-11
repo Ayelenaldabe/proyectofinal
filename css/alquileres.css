@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "lucida";
+  src: url("../fuentes/ROCC__")
+  format:("truetype")
+
+}
+@font-face {
+  font-family: "l_10646";
+  src: url("../fuentes/l_10646")
+  format:("truetype")
+
+}
+
+body{background color: black;}
+header {background-color:#F9E79F }
+.titulo{text-align: center;font-family: lucida;color:black;}
+.container2{ background color:#F9E79F; }
+.estilosmain{background color:#F9E79F; background-position: center;}

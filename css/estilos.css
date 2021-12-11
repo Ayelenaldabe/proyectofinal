@@ -1,3 +1,72 @@
-body {background-color:white;}
-.solapas {text-align:left; color:#F7DC6F;font-style: italic}
-#titulo {text-align: center; font-size: italic; color:black }
+@font-face {
+  font-family: "lucida";
+  src: url("../fuentes/ROCC__")
+  format:("truetype")
+
+}
+@font-face {
+  font-family: "llucida";
+  src: url("../fuentes/l_10646")
+  format:("truetype")
+
+}
+
+
+
+body {background-color: black; }
+.logotipo {width: 20vw;}
+#titulo {text-align: center;
+         color:white;
+         font-size: 3rem;
+       font-family: lucida;}
+section {background-color:#F9E79F;
+         margin-bottom: 5%;}
+aside{background-color:black;
+      margin-top: 10%;
+      margin-bottom: 8%;}
+footer{background-color:#F9E79F;}
+.uno a.hover{color; gray ;}
+@media (max-width: 575px){body {background-color: white}}
+@media (max-width: 575px){section {background-color: white}}
+@media(max-whit: 575px){.logo {width:100vw}}
+@media (max-width: 575px){.contacto {font-style:color:black;}}
+.containericonos{ float: right;}
+.contacto{text-align: right;
+         color: white;
+         font-size: 1rem;
+         margin-right: 7%;}
+.iconowsp {float: right;}
+.quienes{font-family: lucida;
+         color :white;
+         text-align: center;
+         margin-bottom:
+         5%; margin-right: 2%; margin-left: 2%;}
+.p{font-family: lucida;
+   font-size: 1rem;}
+.section1{background-color:#F9E79F;}
+.section2{background-color: white; }
+.letrasubtitulo1{text-align: center;
+                font-style:
+                italic;color: black;
+                font-size: 2rem;}
+.lista1{text-align:justify
+             ;font-family: "llucida" ;
+          color: black;
+                font-size: 1rem;}
+.letrasubtitulo2{text-align: center;
+                font-family: "llucida" ;color: black;
+                font-size: 2rem}
+
+.lista2{text-align:justify;
+         font-style:
+         italic;color: black;
+         font-size: 1rem;}
+.emprendimiento{background-color:#F9E79F; }
+.emprendimiento1{text-align: center;
+                 color: white;
+               font-family: "llucida"; }
+.iconow{position: fixed;
+        top:55%;
+        right: 1%;}
+@media (max-width: 575px){.imgpie {width: 0vw}}
+@media(max-width: 575px){.contacto {color:black;}}
